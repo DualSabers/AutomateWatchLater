@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 gmail =  input("Enter your email: ")
 password = input("Enter your password:")
-PATH = "C:\\Users\AmitR\Desktop\chromedriver.exe"
+PATH = "C:\\Users\NameOfUser\Desktop\chromedriver.exe" # Varies where you need downloaded the chrome driver and change this to your specific directory.
 browser = webdriver.Chrome(PATH)
 browser.get('https://accounts.google.com/signin/v2/identifier?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620&flowName=GlifWebSignIn&flowEntry=ServiceLogin')
 
